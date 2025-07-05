@@ -1,0 +1,1408 @@
+--------- beginning of main
+07-04 13:41:26.982 16534 16554 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+07-04 13:41:26.998 16534 16554 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES, Cores = 6, Memory = 7756mb
+07-04 13:41:26.998 16534 16554 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0x3c), 2 little (mask: 0x3)
+07-04 13:41:26.998 16534 16554 I Unity   : XR UsableCoreMask: 0x3f
+07-04 13:41:26.998 16534 16554 I Unity   : ApplicationInfo com.RehabImmersive.HGTrainer version 1.1
+07-04 13:41:26.998 16534 16554 I Unity   : Built from '2022.3/release' branch, Version '2022.3.48f1 (8bf49c377ebf)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+07-04 13:41:27.256 16534 16554 I Unity   : Company Name: RehabImmersive
+07-04 13:41:27.256 16534 16554 I Unity   : Product Name: HGTrainer
+07-04 13:41:27.258 16534 16554 D Unity   : loading library OVRPlugin
+07-04 13:41:27.286 16534 16554 D Unity   :  GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_half_float GL_OES_framebuffer_object GL_OES_rgb8_rgba8 GL_OES_compressed_ETC1_RGB8_texture GL_AMD_compressed_ATC_texture GL_KHR_texture_compression_astc_sliced_3d GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_OES_texture_compression_astc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_bptc GL_OES_texture_npot GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_read_format_bgra GL_OES_texture_3D GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_float_blend GL_QCOM_alpha_test GL_OES_depth24 GL_OES_packed_depth_stencil GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_EXT_sRGB GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_EXT_texture_type_2_10_10_10_REV GL_EXT_texture_sRGB_decode GL_EXT_texture_compression_astc_decode_mode GL_EXT_
+07-04 13:41:27.286 16534 16554 D Unity   : texture_mirror_clamp_to_edge GL_EXT_texture_format_sRGB_override GL_OES_element_index_uint GL_EXT_copy_image GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_OES_texture_stencil8 GL_EXT_shader_io_blocks GL_OES_shader_image_atomic GL_OES_sample_variables GL_EXT_texture_border_clamp GL_EXT_EGL_image_external_wrap_modes GL_EXT_multisampled_render_to_texture GL_EXT_multisampled_render_to_texture2 GL_OES_shader_multisample_interpolation GL_EXT_texture_cube_map_array GL_EXT_draw_buffers_indexed GL_EXT_gpu_shader5 GL_EXT_robustness GL_EXT_texture_buffer GL_EXT_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_OES_texture_storage_multisample_2d_array GL_OES_sample_shading GL_OES_get_program_binary GL_EXT_debug_label GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_QCOM_tiled_rendering GL_ANDROID_extension_pack_es31a GL_EXT_primitive_bounding_box GL_OES_standard_derivatives GL_OES_vertex_array_object GL_EXT_disjoint_timer_query GL_KHR_debug GL_EXT_YUV_target GL_EXT
+07-04 13:41:27.286 16534 16554 D Unity   : _sRGB_write_control GL_EXT_texture_norm16 GL_EXT_discard_framebuffer GL_OES_surfaceless_context GL_OVR_multiview GL_OVR_multiview2 GL_EXT_texture_sRGB_R8 GL_KHR_no_error GL_EXT_debug_marker GL_OES_EGL_image_external_essl3 GL_OVR_multiview_multisampled_render_to_texture GL_EXT_buffer_storage GL_EXT_external_buffer GL_EXT_blit_framebuffer_params GL_EXT_clip_cull_distance GL_EXT_protected_textures GL_EXT_shader_non_constant_global_initializers GL_QCOM_texture_foveated GL_QCOM_texture_foveated2 GL_QCOM_texture_foveated_subsampled_layout GL_QCOM_shader_framebuffer_fetch_noncoherent GL_QCOM_shader_framebuffer_fetch_rate GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_EGL_image_array GL_NV_shader_noperspective_interpolation GL_KHR_robust_buffer_access_behavior GL_EXT_EGL_image_storage GL_EXT_blend_func_extended GL_EXT_clip_control GL_OES_texture_view GL_EXT_fragment_invocation_density GL_QCOM_motion_estimation GL_QCOM_validate_shader_binary GL_QCOM_YUV_texture_gather GL_QCOM_shading_rate GL_QCOM_frame_extrapola
+07-04 13:41:27.286 16534 16554 D Unity   : tion GL_QCOM_texture_lod_bias GL_IMG_texture_filter_cubic GL_QCOM_render_shared_exponent GL_EXT_polygon_offset_clamp GL_EXT_texture_sRGB_RG8 GL_EXT_depth_clamp GL_EXT_fragment_shading_rate GL_EXT_fragment_shading_rate_primitive GL_EXT_fragment_shading_rate_attachment GL_EXT_shader_implicit_conversions GL_EXT_render_snorm GL_QCOM_render_sRGB_R8_RG8
+07-04 13:41:27.477 16534 16554 I Unity   : XRGeneral Settings awakening...
+07-04 13:41:27.477 16534 16554 I Unity   : UnityEngine.XR.Management.XRGeneralSettings:Awake()
+07-04 13:41:27.477 16534 16554 I Unity   : 
+07-04 13:41:27.808 16534 16554 W Unity   : [XR] Depth Submission is only supported on Vulkan with Multiview.
+07-04 13:41:27.808 16534 16554 D Unity   : initOculus Java!
+07-04 13:41:27.808 16534 16534 D Unity   : Oculus UI thread done.
+07-04 13:41:27.929 16534 16595 W Unity   : [XR] Symmetric Projection is only supported on Quest 2 with Vulkan and Multiview.
+07-04 13:41:32.475 16534 16554 I Unity   : Unity v2022.3.48f1, Oculus Utilities v1.103.0, OVRPlugin v1.103.0, SDK v1.1.40.
+07-04 13:41:32.475 16534 16554 I Unity   : OVRManager:InitOVRManager()
+07-04 13:41:32.475 16534 16554 I Unity   : 
+07-04 13:41:32.476 16534 16554 I Unity   : SystemHeadset Meta_Quest_3, API OpenXR
+07-04 13:41:32.476 16534 16554 I Unity   : OVRManager:InitOVRManager()
+07-04 13:41:32.476 16534 16554 I Unity   : 
+07-04 13:41:32.477 16534 16554 I Unity   : OpenXR instance 0x2 session 0x4D
+07-04 13:41:32.477 16534 16554 I Unity   : OVRManager:InitOVRManager()
+07-04 13:41:32.477 16534 16554 I Unity   : 
+07-04 13:41:32.480 16534 16554 I Unity   : OVRPlugin.Media not initialized
+07-04 13:41:32.480 16534 16554 I Unity   : OVRManager:StaticInitializeMixedRealityCapture(OVRMixedRealityCaptureConfiguration)
+07-04 13:41:32.480 16534 16554 I Unity   : OVRManager:InitOVRManager()
+07-04 13:41:32.480 16534 16554 I Unity   : 
+07-04 13:41:32.484 16534 16554 I Unity   : Current display frequency 72, available frequencies [72, 80, 90, 120]
+07-04 13:41:32.484 16534 16554 I Unity   : OVRManager:InitOVRManager()
+07-04 13:41:32.484 16534 16554 I Unity   : 
+07-04 13:41:32.487 16534 16554 E Unity   : Failed to initialize Insight Passthrough. Passthrough will be unavailable. Error Failure_NotInitialized.
+07-04 13:41:32.487 16534 16554 E Unity   : OVRManager:InitializeInsightPassthrough()
+07-04 13:41:32.487 16534 16554 E Unity   : OVRManager:InitOVRManager()
+07-04 13:41:32.487 16534 16554 E Unity   : 
+07-04 13:41:32.487 16534 16554 W Unity   : Local Dimming feature is not supported
+07-04 13:41:32.487 16534 16554 W Unity   : OVRManager:InitOVRManager()
+07-04 13:41:32.487 16534 16554 W Unity   : 
+07-04 13:41:32.489 16534 16554 I Unity   : [OVRManager] Current hand skeleton version is OpenXR
+07-04 13:41:32.489 16534 16554 I Unity   : OVRManager:InitOVRManager()
+07-04 13:41:32.489 16534 16554 I Unity   : 
+07-04 13:41:32.494 16534 16554 I Unity   : Found IOVRSkeletonDataProvider reference in LeftOVRHand due to unassigned field.
+07-04 13:41:32.494 16534 16554 I Unity   : OVRSkeleton:Awake()
+07-04 13:41:32.494 16534 16554 I Unity   : 
+07-04 13:41:32.495 16534 16554 I Unity   : Found IOVRSkeletonDataProvider reference in RightOVRHand due to unassigned field.
+07-04 13:41:32.495 16534 16554 I Unity   : OVRSkeleton:Awake()
+07-04 13:41:32.495 16534 16554 I Unity   : 
+07-04 13:41:32.535 16534 16554 I Unity   : 🧠 HMD Height: 1,173 m
+07-04 13:41:32.535 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.535 16534 16554 I Unity   : 
+07-04 13:41:32.536 16534 16554 I Unity   : 🎭 Model Height: 1,629 m
+07-04 13:41:32.536 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.536 16534 16554 I Unity   : 
+07-04 13:41:32.536 16534 16554 I Unity   : 🎭 Model Eyes Height: 1,627 m
+07-04 13:41:32.536 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.536 16534 16554 I Unity   : 
+07-04 13:41:32.536 16534 16554 I Unity   : 📏 Eye Difference (Error): 0,454 m
+07-04 13:41:32.536 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.536 16534 16554 I Unity   : 
+07-04 13:41:32.537 16534 16554 I Unity   : 📏 Head Difference (Error): 0,454 m
+07-04 13:41:32.537 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.537 16534 16554 I Unity   : 
+07-04 13:41:32.537 16534 16554 I Unity   : 🧠 HMD Height: 1,173 m
+07-04 13:41:32.537 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.537 16534 16554 I Unity   : 
+07-04 13:41:32.537 16534 16554 I Unity   : 🎭 Model Height: 1,629 m
+07-04 13:41:32.537 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.537 16534 16554 I Unity   : 
+07-04 13:41:32.537 16534 16554 I Unity   : 🎭 Model Eyes Height: 1,627 m
+07-04 13:41:32.537 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.537 16534 16554 I Unity   : 
+07-04 13:41:32.538 16534 16554 I Unity   : 📏 Eye Difference (Error): 0,454 m
+07-04 13:41:32.538 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.538 16534 16554 I Unity   : 
+07-04 13:41:32.538 16534 16554 I Unity   : 📏 Head Difference (Error): 0,454 m
+07-04 13:41:32.538 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.538 16534 16554 I Unity   : 
+07-04 13:41:32.538 16534 16554 I Unity   : 🧠 HMD Height: 1,173 m
+07-04 13:41:32.538 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.538 16534 16554 I Unity   : 
+07-04 13:41:32.538 16534 16554 I Unity   : 🎭 Model Height: 1,629 m
+07-04 13:41:32.538 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.538 16534 16554 I Unity   : 
+07-04 13:41:32.539 16534 16554 I Unity   : 🎭 Model Eyes Height: 1,627 m
+07-04 13:41:32.539 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.539 16534 16554 I Unity   : 
+07-04 13:41:32.539 16534 16554 I Unity   : 📏 Eye Difference (Error): 0,454 m
+07-04 13:41:32.539 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.539 16534 16554 I Unity   : 
+07-04 13:41:32.539 16534 16554 I Unity   : 📏 Head Difference (Error): 0,454 m
+07-04 13:41:32.539 16534 16554 I Unity   : VRHeadPrecisionChecker:LogHeight()
+07-04 13:41:32.539 16534 16554 I Unity   : 
+07-04 13:41:32.571 16534 16554 I Unity   : OVRControllerHelp: Active controller type: TouchPlus for product Meta Quest 3 (headset Meta_Quest_3, hand HandRight)
+07-04 13:41:32.571 16534 16554 I Unity   : OVRControllerHelper:InitializeControllerModels()
+07-04 13:41:32.571 16534 16554 I Unity   : 
+07-04 13:41:32.571 16534 16554 I Unity   : OVRControllerHelp: Active controller type: TouchPlus for product Meta Quest 3 (headset Meta_Quest_3, hand HandLeft)
+07-04 13:41:32.571 16534 16554 I Unity   : OVRControllerHelper:InitializeControllerModels()
+07-04 13:41:32.571 16534 16554 I Unity   : 
+07-04 13:41:32.582 16534 16554 I Unity   : The current MSAA level is 0, but the recommended MSAA level is 4. Switching to the recommended level.
+07-04 13:41:32.582 16534 16554 I Unity   : OVRManager:Update()
+07-04 13:41:32.582 16534 16554 I Unity   : 
+07-04 13:41:32.582 16534 16554 I Unity   : [OVRManager] HMDAcquired event
+07-04 13:41:32.582 16534 16554 I Unity   : OVRManager:Update()
+07-04 13:41:32.582 16534 16554 I Unity   : 
+07-04 13:41:32.583 16534 16554 I Unity   : [OVRManager] HMDMounted event
+07-04 13:41:32.583 16534 16554 I Unity   : OVRManager:Update()
+07-04 13:41:32.583 16534 16554 I Unity   : 
+07-04 13:41:32.584 16534 16554 I Unity   : [OVRManager] VrFocusAcquired event
+07-04 13:41:32.584 16534 16554 I Unity   : OVRManager:Update()
+07-04 13:41:32.584 16534 16554 I Unity   : 
+07-04 13:41:32.586 16534 16554 I Unity   : [OVRManager] TrackingAcquired event
+07-04 13:41:32.586 16534 16554 I Unity   : OVRManager:Update()
+07-04 13:41:32.586 16534 16554 I Unity   : 
+07-04 13:41:32.587 16534 16554 I Unity   : Recenter event detected
+07-04 13:41:32.587 16534 16554 I Unity   : OVRDisplay:Update()
+07-04 13:41:32.587 16534 16554 I Unity   : OVRManager:Update()
+07-04 13:41:32.587 16534 16554 I Unity   : 
+07-04 13:41:32.659 16534 16554 I Unity   : HMD Y value: 1,169111
+07-04 13:41:32.659 16534 16554 I Unity   : resize3DModel:AdjustModelScale(Vector3)
+07-04 13:41:32.659 16534 16554 I Unity   : <InitializeScale>d__4:MoveNext()
+07-04 13:41:32.659 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:32.659 16534 16554 I Unity   : 
+07-04 13:41:33.439 16534 16554 I Unity   : Connected to signaling server
+07-04 13:41:33.439 16534 16554 I Unity   : <ConnectToSignalingServer>d__9:MoveNext()
+07-04 13:41:33.439 16534 16554 I Unity   : System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+07-04 13:41:33.439 16534 16554 I Unity   : System.Runtime.CompilerServices.MoveNextRunner:Run()
+07-04 13:41:33.439 16534 16554 I Unity   : UnityEngine.WorkRequest:Invoke()
+07-04 13:41:33.439 16534 16554 I Unity   : UnityEngine.UnitySynchronizationContext:Exec()
+07-04 13:41:33.439 16534 16554 I Unity   : 
+07-04 13:41:33.446 16534 16764 I Unity   : SENDER - Received message
+07-04 13:41:33.446 16534 16764 I Unity   : <<ConnectToSignalingServer>b__9_0>d:MoveNext()
+07-04 13:41:33.446 16534 16764 I Unity   : System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+07-04 13:41:33.446 16534 16764 I Unity   : System.Runtime.CompilerServices.MoveNextRunner:Run()
+07-04 13:41:33.446 16534 16764 I Unity   : System.Threading.Tasks.AwaitTaskContinuation:RunOrScheduleAction(Action, Boolean, Task&)
+07-04 13:41:33.446 16534 16764 I Unity   : System.Threading.Tasks.Task:FinishContinuations()
+07-04 13:41:33.446 16534 16764 I Unity   : System.Threading.Tasks.Task`1:TrySetResult(TResult)
+07-04 13:41:33.446 16534 16764 I Unity   : System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+07-04 13:41:33.446 16534 16764 I Unity   : System.Net.WebSockets.<ReceiveAsyncPrivate>d__61`2:MoveNext()
+07-04 13:41:33.446 16534 16764 I Unity   : System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+07-04 13:41:33.446 16534 16764 I Unity   : System.Runtime.CompilerServices.MoveNextRunner:Run()
+07-04 13:41:33.446 16534 16764 I Unity   : System.Threading.Tasks.AwaitTaskContinuation:RunOrScheduleAction(Action, Boolean, Task&)
+07-04 13:41:33.446 16534 16764 I Unity   : System.Threading.Tasks.Task:FinishContinuations()
+07-04 13:41:33.446 16534 16764 I Unity   : System.Threading.Tasks.Task`1:TrySetResult(TResult)
+07-04 13:41:33.446 16534 16764 I Unity   : System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetResult(TResult)
+07-04 13:41:33.446 16534 16764 I Unity   : System.Net.WebSockets.<EnsureBufferContainsAsync>d__
+07-04 13:41:34.060 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:34.060 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:34.060 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:34.060 16534 16554 I Unity   : 
+07-04 13:41:34.895 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:34.895 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:34.895 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:34.895 16534 16554 I Unity   : 
+07-04 13:41:34.942 16534 16554 I Unity   : Arms calibrated correctly
+07-04 13:41:34.942 16534 16554 I Unity   : <WaitForTPose>d__14:MoveNext()
+07-04 13:41:34.942 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:34.942 16534 16554 I Unity   : 
+07-04 13:41:35.665 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:35.665 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:35.665 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:35.665 16534 16554 I Unity   : 
+07-04 13:41:36.419 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:36.419 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:36.419 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:36.419 16534 16554 I Unity   : 
+07-04 13:41:37.216 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:37.216 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:37.216 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:37.216 16534 16554 I Unity   : 
+07-04 13:41:37.991 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:37.991 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:37.991 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:37.991 16534 16554 I Unity   : 
+07-04 13:41:38.742 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:38.742 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:38.742 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:38.742 16534 16554 I Unity   : 
+07-04 13:41:39.517 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:39.517 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:39.517 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:39.517 16534 16554 I Unity   : 
+07-04 13:41:40.297 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:40.297 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:40.297 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:40.297 16534 16554 I Unity   : 
+07-04 13:41:40.906 16534 16554 I Unity   : /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/config.json
+07-04 13:41:40.906 16534 16554 I Unity   : MenuController:SaveConfiguration()
+07-04 13:41:40.906 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:41:40.906 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:41:40.906 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:41:40.906 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:41:40.906 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:41:40.906 16534 16554 I Unity   : 
+07-04 13:41:41.065 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:41.065 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:41.065 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:41.065 16534 16554 I Unity   : 
+07-04 13:41:41.836 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:41.836 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:41.836 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:41.836 16534 16554 I Unity   : 
+07-04 13:41:42.570 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:42.570 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:42.570 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:42.570 16534 16554 I Unity   : 
+07-04 13:41:43.313 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:43.313 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:43.313 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:43.313 16534 16554 I Unity   : 
+07-04 13:41:44.074 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:44.074 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:44.074 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:44.074 16534 16554 I Unity   : 
+07-04 13:41:44.834 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:44.834 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:44.834 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:44.834 16534 16554 I Unity   : 
+07-04 13:41:45.589 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:45.589 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:45.589 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:45.589 16534 16554 I Unity   : 
+07-04 13:41:46.337 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:46.337 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:46.337 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:46.337 16534 16554 I Unity   : 
+07-04 13:41:47.084 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:47.084 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:47.084 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:47.084 16534 16554 I Unity   : 
+07-04 13:41:47.100 16534 16554 I Unity   : /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/config.json
+07-04 13:41:47.100 16534 16554 I Unity   : MenuController:SaveConfiguration()
+07-04 13:41:47.100 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:41:47.100 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:41:47.100 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:41:47.100 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:41:47.100 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:41:47.100 16534 16554 I Unity   : 
+07-04 13:41:47.784 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:47.784 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:47.784 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:47.784 16534 16554 I Unity   : 
+07-04 13:41:48.489 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:48.489 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:48.489 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:48.489 16534 16554 I Unity   : 
+07-04 13:41:49.214 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:49.214 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:49.214 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:49.214 16534 16554 I Unity   : 
+07-04 13:41:49.918 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:49.918 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:49.918 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:49.918 16534 16554 I Unity   : 
+07-04 13:41:50.606 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:50.606 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:50.606 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:50.606 16534 16554 I Unity   : 
+07-04 13:41:51.323 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:51.323 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:51.323 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:51.323 16534 16554 I Unity   : 
+07-04 13:41:52.033 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:52.033 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:52.033 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:52.033 16534 16554 I Unity   : 
+07-04 13:41:52.762 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:52.762 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:52.762 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:52.762 16534 16554 I Unity   : 
+07-04 13:41:53.504 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:53.504 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:53.504 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:53.504 16534 16554 I Unity   : 
+07-04 13:41:54.267 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:54.267 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:54.267 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:54.267 16534 16554 I Unity   : 
+07-04 13:41:55.036 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:55.036 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:55.036 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:55.036 16534 16554 I Unity   : 
+07-04 13:41:55.809 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:55.809 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:55.809 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:55.809 16534 16554 I Unity   : 
+07-04 13:41:56.491 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:56.491 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:56.491 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:56.491 16534 16554 I Unity   : 
+07-04 13:41:57.191 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:57.191 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:57.191 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:57.191 16534 16554 I Unity   : 
+07-04 13:41:57.951 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:57.951 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:57.951 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:57.951 16534 16554 I Unity   : 
+07-04 13:41:58.735 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:58.735 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:58.735 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:58.735 16534 16554 I Unity   : 
+07-04 13:41:59.513 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:41:59.513 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:41:59.513 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:41:59.513 16534 16554 I Unity   : 
+07-04 13:42:00.282 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:00.282 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:00.282 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:00.282 16534 16554 I Unity   : 
+07-04 13:42:01.059 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:01.059 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:01.059 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:01.059 16534 16554 I Unity   : 
+07-04 13:42:01.822 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:01.822 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:01.822 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:01.822 16534 16554 I Unity   : 
+07-04 13:42:02.589 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:02.589 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:02.589 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:02.589 16534 16554 I Unity   : 
+07-04 13:42:03.369 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:03.369 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:03.369 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:03.369 16534 16554 I Unity   : 
+07-04 13:42:04.138 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:04.138 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:04.138 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:04.138 16534 16554 I Unity   : 
+07-04 13:42:04.904 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:04.904 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:04.904 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:04.904 16534 16554 I Unity   : 
+07-04 13:42:05.667 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:05.667 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:05.667 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:05.667 16534 16554 I Unity   : 
+07-04 13:42:06.430 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:06.430 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:06.430 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:06.430 16534 16554 I Unity   : 
+07-04 13:42:07.182 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:07.182 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:07.182 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:07.182 16534 16554 I Unity   : 
+07-04 13:42:07.926 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:07.926 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:07.926 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:07.926 16534 16554 I Unity   : 
+07-04 13:42:08.691 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:08.691 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:08.691 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:08.691 16534 16554 I Unity   : 
+07-04 13:42:09.464 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:09.464 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:09.464 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:09.464 16534 16554 I Unity   : 
+07-04 13:42:10.229 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:10.229 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:10.229 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:10.229 16534 16554 I Unity   : 
+07-04 13:42:10.988 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:10.988 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:10.988 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:10.988 16534 16554 I Unity   : 
+07-04 13:42:11.719 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:11.719 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:11.719 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:11.719 16534 16554 I Unity   : 
+07-04 13:42:12.479 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:12.479 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:12.479 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:12.479 16534 16554 I Unity   : 
+07-04 13:42:13.213 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:13.213 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:13.213 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.213 16534 16554 I Unity   : 
+07-04 13:42:13.587 16534 16554 I Unity   : Starting CSV upload from: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/Historical.csv
+07-04 13:42:13.587 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.587 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.587 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:42:13.587 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:42:13.587 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:42:13.587 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:42:13.587 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:42:13.587 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:42:13.587 16534 16554 I Unity   : 
+07-04 13:42:13.595 16534 16554 I Unity   : Searching for file in: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/TrackingData
+07-04 13:42:13.595 16534 16554 I Unity   : CSVUploader:searchForFile(String)
+07-04 13:42:13.595 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:42:13.595 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:42:13.595 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:42:13.595 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:42:13.595 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:42:13.595 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:42:13.595 16534 16554 I Unity   : 
+07-04 13:42:13.596 16534 16554 I Unity   : Found file: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/TrackingData/OculusTracking_20250704_134153.csv
+07-04 13:42:13.596 16534 16554 I Unity   : CSVUploader:searchForFile(String)
+07-04 13:42:13.596 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:42:13.596 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:42:13.596 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:42:13.596 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:42:13.596 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:42:13.596 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:42:13.596 16534 16554 I Unity   : 
+07-04 13:42:13.596 16534 16554 I Unity   : Starting CSV upload from: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/TrackingData/OculusTracking_20250704_134153.csv
+07-04 13:42:13.596 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.596 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.596 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:42:13.596 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:42:13.596 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:42:13.596 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:42:13.596 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:42:13.596 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:42:13.596 16534 16554 I Unity   : 
+07-04 13:42:13.745 16534 16554 I Unity   : ⏱️ Tiempo total: 0,153 s
+07-04 13:42:13.745 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.745 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.745 16534 16554 I Unity   : 
+07-04 13:42:13.746 16534 16554 I Unity   : [EFFICIENCY] File total size (not including overhead): 11245 bytes
+07-04 13:42:13.746 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.746 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.746 16534 16554 I Unity   : 
+07-04 13:42:13.747 16534 16554 I Unity   : [EFFICIENCY] Payload total size (including overhead): 11329 bytes
+07-04 13:42:13.747 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.747 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.747 16534 16554 I Unity   : 
+07-04 13:42:13.748 16534 16554 I Unity   : [EFFICIENCY] Overhead size (headers, form boundaries, etc.): 84 bytes
+07-04 13:42:13.748 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.748 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.748 16534 16554 I Unity   : 
+07-04 13:42:13.748 16534 16554 I Unity   : Overhead Ratio0,00746998666073811
+07-04 13:42:13.748 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.748 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.748 16534 16554 I Unity   : 
+07-04 13:42:13.749 16534 16554 I Unity   : Efficiency0,992585400300115
+07-04 13:42:13.749 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.749 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.749 16534 16554 I Unity   : 
+07-04 13:42:13.749 16534 16554 I Unity   : Upload successful: {"message":"File uploaded successfully"}
+07-04 13:42:13.749 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.749 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.749 16534 16554 I Unity   : 
+07-04 13:42:13.931 16534 16554 I Unity   : ⏱️ Tiempo total: 0,333 s
+07-04 13:42:13.931 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.931 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.931 16534 16554 I Unity   : 
+07-04 13:42:13.931 16534 16554 I Unity   : [EFFICIENCY] File total size (not including overhead): 111815 bytes
+07-04 13:42:13.931 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.931 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.931 16534 16554 I Unity   : 
+07-04 13:42:13.932 16534 16554 I Unity   : [EFFICIENCY] Payload total size (including overhead): 111899 bytes
+07-04 13:42:13.932 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.932 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.932 16534 16554 I Unity   : 
+07-04 13:42:13.932 16534 16554 I Unity   : [EFFICIENCY] Overhead size (headers, form boundaries, etc.): 84 bytes
+07-04 13:42:13.932 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.932 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.932 16534 16554 I Unity   : 
+07-04 13:42:13.933 16534 16554 I Unity   : Overhead Ratio0,000751240888968385
+07-04 13:42:13.933 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.933 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.933 16534 16554 I Unity   : 
+07-04 13:42:13.933 16534 16554 I Unity   : Efficiency0,999249323050251
+07-04 13:42:13.933 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.933 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.933 16534 16554 I Unity   : 
+07-04 13:42:13.933 16534 16554 I Unity   : Upload successful: {"message":"File uploaded successfully"}
+07-04 13:42:13.933 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:42:13.933 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.933 16534 16554 I Unity   : 
+07-04 13:42:13.969 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:13.969 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:13.969 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:13.969 16534 16554 I Unity   : 
+07-04 13:42:14.727 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:14.727 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:14.727 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:14.727 16534 16554 I Unity   : 
+07-04 13:42:15.479 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:15.479 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:15.479 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:15.479 16534 16554 I Unity   : 
+07-04 13:42:16.238 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:16.238 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:16.238 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:16.238 16534 16554 I Unity   : 
+07-04 13:42:17.015 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:17.015 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:17.015 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:17.015 16534 16554 I Unity   : 
+07-04 13:42:17.789 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:17.789 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:17.789 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:17.789 16534 16554 I Unity   : 
+07-04 13:42:18.557 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:18.557 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:18.557 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:18.557 16534 16554 I Unity   : 
+07-04 13:42:19.017 16534 16554 I Unity   : /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/config.json
+07-04 13:42:19.017 16534 16554 I Unity   : MenuController:SaveConfiguration()
+07-04 13:42:19.017 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:42:19.017 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:42:19.017 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:42:19.017 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:42:19.017 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:42:19.017 16534 16554 I Unity   : 
+07-04 13:42:19.306 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:19.306 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:19.306 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:19.306 16534 16554 I Unity   : 
+07-04 13:42:20.029 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:20.029 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:20.029 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:20.029 16534 16554 I Unity   : 
+07-04 13:42:20.752 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:20.752 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:20.752 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:20.752 16534 16554 I Unity   : 
+07-04 13:42:21.480 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:21.480 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:21.480 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:21.480 16534 16554 I Unity   : 
+07-04 13:42:22.208 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:22.208 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:22.208 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:22.208 16534 16554 I Unity   : 
+07-04 13:42:22.919 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:22.919 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:22.919 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:22.919 16534 16554 I Unity   : 
+07-04 13:42:23.616 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:23.616 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:23.616 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:23.616 16534 16554 I Unity   : 
+07-04 13:42:24.324 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:24.324 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:24.324 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:24.324 16534 16554 I Unity   : 
+07-04 13:42:25.053 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:25.053 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:25.053 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:25.053 16534 16554 I Unity   : 
+07-04 13:42:25.818 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:25.818 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:25.818 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:25.818 16534 16554 I Unity   : 
+07-04 13:42:26.576 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:26.576 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:26.576 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:26.576 16534 16554 I Unity   : 
+07-04 13:42:27.336 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:27.336 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:27.336 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:27.336 16534 16554 I Unity   : 
+07-04 13:42:28.099 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:28.099 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:28.099 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:28.099 16534 16554 I Unity   : 
+07-04 13:42:28.832 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:28.832 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:28.832 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:28.832 16534 16554 I Unity   : 
+07-04 13:42:29.529 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:29.529 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:29.529 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:29.529 16534 16554 I Unity   : 
+07-04 13:42:30.286 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:30.286 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:30.286 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:30.286 16534 16554 I Unity   : 
+07-04 13:42:31.052 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:31.052 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:31.052 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:31.052 16534 16554 I Unity   : 
+07-04 13:42:31.824 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:31.824 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:31.824 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:31.824 16534 16554 I Unity   : 
+07-04 13:42:32.589 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:32.589 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:32.589 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:32.589 16534 16554 I Unity   : 
+07-04 13:42:33.353 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:33.353 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:33.353 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:33.353 16534 16554 I Unity   : 
+07-04 13:42:34.113 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:34.113 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:34.113 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:34.113 16534 16554 I Unity   : 
+07-04 13:42:34.875 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:34.875 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:34.875 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:34.875 16534 16554 I Unity   : 
+07-04 13:42:35.638 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:35.638 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:35.638 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:35.638 16534 16554 I Unity   : 
+07-04 13:42:36.405 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:36.405 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:36.405 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:36.405 16534 16554 I Unity   : 
+07-04 13:42:37.168 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:37.168 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:37.168 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:37.168 16534 16554 I Unity   : 
+07-04 13:42:37.926 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:37.926 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:37.926 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:37.926 16534 16554 I Unity   : 
+07-04 13:42:38.701 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:38.701 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:38.701 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:38.701 16534 16554 I Unity   : 
+07-04 13:42:39.477 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:39.477 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:39.477 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:39.477 16534 16554 I Unity   : 
+07-04 13:42:40.241 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:40.241 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:40.241 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:40.241 16534 16554 I Unity   : 
+07-04 13:42:41.000 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:41.000 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:41.000 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:41.000 16534 16554 I Unity   : 
+07-04 13:42:41.780 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:41.780 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:41.780 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:41.780 16534 16554 I Unity   : 
+07-04 13:42:42.542 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:42.542 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:42.542 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:42.542 16534 16554 I Unity   : 
+07-04 13:42:43.318 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:43.318 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:43.318 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:43.318 16534 16554 I Unity   : 
+07-04 13:42:44.078 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:44.078 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:44.078 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:44.078 16534 16554 I Unity   : 
+07-04 13:42:44.840 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:44.840 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:44.840 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:44.840 16534 16554 I Unity   : 
+07-04 13:42:45.598 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:45.598 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:45.598 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:45.598 16534 16554 I Unity   : 
+07-04 13:42:46.363 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:46.363 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:46.363 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:46.363 16534 16554 I Unity   : 
+07-04 13:42:47.124 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:47.124 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:47.124 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:47.124 16534 16554 I Unity   : 
+07-04 13:42:47.848 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:47.848 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:47.848 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:47.848 16534 16554 I Unity   : 
+07-04 13:42:48.615 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:48.615 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:48.615 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:48.615 16534 16554 I Unity   : 
+07-04 13:42:49.389 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:49.389 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:49.389 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:49.389 16534 16554 I Unity   : 
+07-04 13:42:50.153 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:50.153 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:50.153 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:50.153 16534 16554 I Unity   : 
+07-04 13:42:50.916 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:50.916 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:50.916 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:50.916 16534 16554 I Unity   : 
+07-04 13:42:51.685 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:51.685 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:51.685 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:51.685 16534 16554 I Unity   : 
+07-04 13:42:52.470 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:52.470 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:52.470 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:52.470 16534 16554 I Unity   : 
+07-04 13:42:53.241 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:53.241 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:53.241 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:53.241 16534 16554 I Unity   : 
+07-04 13:42:54.009 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:54.009 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:54.009 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:54.009 16534 16554 I Unity   : 
+07-04 13:42:54.768 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:54.768 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:54.768 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:54.768 16534 16554 I Unity   : 
+07-04 13:42:55.517 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:55.517 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:55.517 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:55.517 16534 16554 I Unity   : 
+07-04 13:42:56.275 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:56.275 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:56.275 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:56.275 16534 16554 I Unity   : 
+07-04 13:42:57.045 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:57.045 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:57.045 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:57.045 16534 16554 I Unity   : 
+07-04 13:42:57.805 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:57.805 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:57.805 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:57.805 16534 16554 I Unity   : 
+07-04 13:42:58.572 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:58.572 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:58.572 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:58.572 16534 16554 I Unity   : 
+07-04 13:42:59.349 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:42:59.349 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:42:59.349 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:42:59.349 16534 16554 I Unity   : 
+07-04 13:43:00.127 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:00.127 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:00.127 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:00.127 16534 16554 I Unity   : 
+07-04 13:43:00.896 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:00.896 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:00.896 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:00.896 16534 16554 I Unity   : 
+07-04 13:43:01.668 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:01.668 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:01.668 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:01.668 16534 16554 I Unity   : 
+07-04 13:43:02.444 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:02.444 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:02.444 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:02.444 16534 16554 I Unity   : 
+07-04 13:43:03.193 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:03.193 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:03.193 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:03.193 16534 16554 I Unity   : 
+07-04 13:43:03.940 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:03.940 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:03.940 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:03.940 16534 16554 I Unity   : 
+07-04 13:43:04.696 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:04.696 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:04.696 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:04.696 16534 16554 I Unity   : 
+07-04 13:43:05.431 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:05.431 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:05.431 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.431 16534 16554 I Unity   : 
+07-04 13:43:05.459 16534 16554 I Unity   : Starting CSV upload from: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/Historical.csv
+07-04 13:43:05.459 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.459 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.459 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:43:05.459 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:43:05.459 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:43:05.459 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:43:05.459 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:43:05.459 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:43:05.459 16534 16554 I Unity   : 
+07-04 13:43:05.459 16534 16554 I Unity   : Searching for file in: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/TrackingData
+07-04 13:43:05.459 16534 16554 I Unity   : CSVUploader:searchForFile(String)
+07-04 13:43:05.459 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:43:05.459 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:43:05.459 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:43:05.459 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:43:05.459 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:43:05.459 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:43:05.459 16534 16554 I Unity   : 
+07-04 13:43:05.460 16534 16554 I Unity   : Found file: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/TrackingData/OculusTracking_20250704_134225.csv
+07-04 13:43:05.460 16534 16554 I Unity   : CSVUploader:searchForFile(String)
+07-04 13:43:05.460 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:43:05.460 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:43:05.460 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:43:05.460 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:43:05.460 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:43:05.460 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:43:05.460 16534 16554 I Unity   : 
+07-04 13:43:05.460 16534 16554 I Unity   : Starting CSV upload from: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/TrackingData/OculusTracking_20250704_134225.csv
+07-04 13:43:05.460 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.460 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.460 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:43:05.460 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:43:05.460 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:43:05.460 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:43:05.460 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:43:05.460 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:43:05.460 16534 16554 I Unity   : 
+07-04 13:43:05.638 16534 16554 I Unity   : ⏱️ Tiempo total: 0,178 s
+07-04 13:43:05.638 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.638 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.638 16534 16554 I Unity   : 
+07-04 13:43:05.638 16534 16554 I Unity   : [EFFICIENCY] File total size (not including overhead): 13320 bytes
+07-04 13:43:05.638 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.638 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.638 16534 16554 I Unity   : 
+07-04 13:43:05.638 16534 16554 I Unity   : [EFFICIENCY] Payload total size (including overhead): 13404 bytes
+07-04 13:43:05.638 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.638 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.638 16534 16554 I Unity   : 
+07-04 13:43:05.639 16534 16554 I Unity   : [EFFICIENCY] Overhead size (headers, form boundaries, etc.): 84 bytes
+07-04 13:43:05.639 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.639 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.639 16534 16554 I Unity   : 
+07-04 13:43:05.639 16534 16554 I Unity   : Overhead Ratio0,00630630630630631
+07-04 13:43:05.639 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.639 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.639 16534 16554 I Unity   : 
+07-04 13:43:05.640 16534 16554 I Unity   : Efficiency0,99373321396598
+07-04 13:43:05.640 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.640 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.640 16534 16554 I Unity   : 
+07-04 13:43:05.640 16534 16554 I Unity   : Upload successful: {"message":"File uploaded successfully"}
+07-04 13:43:05.640 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.640 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.640 16534 16554 I Unity   : 
+07-04 13:43:05.757 16534 16554 I Unity   : ⏱️ Tiempo total: 0,294 s
+07-04 13:43:05.757 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.757 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.757 16534 16554 I Unity   : 
+07-04 13:43:05.757 16534 16554 I Unity   : [EFFICIENCY] File total size (not including overhead): 225467 bytes
+07-04 13:43:05.757 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.757 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.757 16534 16554 I Unity   : 
+07-04 13:43:05.758 16534 16554 I Unity   : [EFFICIENCY] Payload total size (including overhead): 225551 bytes
+07-04 13:43:05.758 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.758 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.758 16534 16554 I Unity   : 
+07-04 13:43:05.759 16534 16554 I Unity   : [EFFICIENCY] Overhead size (headers, form boundaries, etc.): 84 bytes
+07-04 13:43:05.759 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.759 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.759 16534 16554 I Unity   : 
+07-04 13:43:05.759 16534 16554 I Unity   : Overhead Ratio0,000372560064222259
+07-04 13:43:05.759 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.759 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.759 16534 16554 I Unity   : 
+07-04 13:43:05.760 16534 16554 I Unity   : Efficiency0,999627578685087
+07-04 13:43:05.760 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.760 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.760 16534 16554 I Unity   : 
+07-04 13:43:05.760 16534 16554 I Unity   : Upload successful: {"message":"File uploaded successfully"}
+07-04 13:43:05.760 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:43:05.760 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:05.760 16534 16554 I Unity   : 
+07-04 13:43:06.195 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:06.195 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:06.195 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:06.195 16534 16554 I Unity   : 
+07-04 13:43:06.943 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:06.943 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:06.943 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:06.943 16534 16554 I Unity   : 
+07-04 13:43:07.692 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:07.692 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:07.692 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:07.692 16534 16554 I Unity   : 
+07-04 13:43:08.446 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:08.446 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:08.446 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:08.446 16534 16554 I Unity   : 
+07-04 13:43:09.208 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:09.208 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:09.208 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:09.208 16534 16554 I Unity   : 
+07-04 13:43:09.987 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:09.987 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:09.987 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:09.987 16534 16554 I Unity   : 
+07-04 13:43:10.776 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:10.776 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:10.776 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:10.776 16534 16554 I Unity   : 
+07-04 13:43:11.557 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:11.557 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:11.557 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:11.557 16534 16554 I Unity   : 
+07-04 13:43:11.693 16534 16554 I Unity   : /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/config.json
+07-04 13:43:11.693 16534 16554 I Unity   : MenuController:SaveConfiguration()
+07-04 13:43:11.693 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:43:11.693 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:43:11.693 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:43:11.693 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:43:11.693 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:43:11.693 16534 16554 I Unity   : 
+07-04 13:43:12.294 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:12.294 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:12.294 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:12.294 16534 16554 I Unity   : 
+07-04 13:43:13.030 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:13.030 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:13.030 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:13.030 16534 16554 I Unity   : 
+07-04 13:43:13.737 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:13.737 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:13.737 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:13.737 16534 16554 I Unity   : 
+07-04 13:43:14.440 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:14.440 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:14.440 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:14.440 16534 16554 I Unity   : 
+07-04 13:43:15.167 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:15.167 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:15.167 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:15.167 16534 16554 I Unity   : 
+07-04 13:43:15.887 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:15.887 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:15.887 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:15.887 16534 16554 I Unity   : 
+07-04 13:43:16.601 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:16.601 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:16.601 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:16.601 16534 16554 I Unity   : 
+07-04 13:43:17.359 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:17.359 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:17.359 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:17.359 16534 16554 I Unity   : 
+07-04 13:43:18.126 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:18.126 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:18.126 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:18.126 16534 16554 I Unity   : 
+07-04 13:43:18.905 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:18.905 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:18.905 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:18.905 16534 16554 I Unity   : 
+07-04 13:43:19.686 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:19.686 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:19.686 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:19.686 16534 16554 I Unity   : 
+07-04 13:43:20.465 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:20.465 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:20.465 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:20.465 16534 16554 I Unity   : 
+07-04 13:43:21.248 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:21.248 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:21.248 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:21.248 16534 16554 I Unity   : 
+07-04 13:43:22.052 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:22.052 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:22.052 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:22.052 16534 16554 I Unity   : 
+07-04 13:43:22.845 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:22.845 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:22.845 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:22.845 16534 16554 I Unity   : 
+07-04 13:43:23.619 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:23.619 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:23.619 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:23.619 16534 16554 I Unity   : 
+07-04 13:43:24.402 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:24.402 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:24.402 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:24.402 16534 16554 I Unity   : 
+07-04 13:43:25.190 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:25.190 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:25.190 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:25.190 16534 16554 I Unity   : 
+07-04 13:43:25.962 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:25.962 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:25.962 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:25.962 16534 16554 I Unity   : 
+07-04 13:43:26.758 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:26.758 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:26.758 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:26.758 16534 16554 I Unity   : 
+07-04 13:43:27.541 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:27.541 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:27.541 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:27.541 16534 16554 I Unity   : 
+07-04 13:43:28.336 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:28.336 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:28.336 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:28.336 16534 16554 I Unity   : 
+07-04 13:43:29.121 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:29.121 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:29.121 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:29.121 16534 16554 I Unity   : 
+07-04 13:43:29.905 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:29.905 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:29.905 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:29.905 16534 16554 I Unity   : 
+07-04 13:43:30.688 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:30.688 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:30.688 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:30.688 16534 16554 I Unity   : 
+07-04 13:43:31.482 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:31.482 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:31.482 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:31.482 16534 16554 I Unity   : 
+07-04 13:43:32.274 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:32.274 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:32.274 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:32.274 16534 16554 I Unity   : 
+07-04 13:43:33.061 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:33.061 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:33.061 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:33.061 16534 16554 I Unity   : 
+07-04 13:43:33.848 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:33.848 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:33.848 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:33.848 16534 16554 I Unity   : 
+07-04 13:43:34.621 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:34.621 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:34.621 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:34.621 16534 16554 I Unity   : 
+07-04 13:43:35.406 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:35.406 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:35.406 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:35.406 16534 16554 I Unity   : 
+07-04 13:43:36.196 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:36.196 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:36.196 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:36.196 16534 16554 I Unity   : 
+07-04 13:43:36.975 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:36.975 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:36.975 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:36.975 16534 16554 I Unity   : 
+07-04 13:43:37.757 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:37.757 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:37.757 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:37.757 16534 16554 I Unity   : 
+07-04 13:43:38.544 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:38.544 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:38.544 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:38.544 16534 16554 I Unity   : 
+07-04 13:43:39.332 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:39.332 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:39.332 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:39.332 16534 16554 I Unity   : 
+07-04 13:43:40.121 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:40.121 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:40.121 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:40.121 16534 16554 I Unity   : 
+07-04 13:43:40.908 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:40.908 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:40.908 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:40.908 16534 16554 I Unity   : 
+07-04 13:43:41.688 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:41.688 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:41.688 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:41.688 16534 16554 I Unity   : 
+07-04 13:43:42.476 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:42.476 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:42.476 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:42.476 16534 16554 I Unity   : 
+07-04 13:43:43.256 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:43.256 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:43.256 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:43.256 16534 16554 I Unity   : 
+07-04 13:43:44.031 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:44.031 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:44.031 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:44.031 16534 16554 I Unity   : 
+07-04 13:43:44.821 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:44.821 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:44.821 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:44.821 16534 16554 I Unity   : 
+07-04 13:43:45.607 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:45.607 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:45.607 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:45.607 16534 16554 I Unity   : 
+07-04 13:43:46.394 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:46.394 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:46.394 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:46.394 16534 16554 I Unity   : 
+07-04 13:43:47.171 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:47.171 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:47.171 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:47.171 16534 16554 I Unity   : 
+07-04 13:43:47.956 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:47.956 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:47.956 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:47.956 16534 16554 I Unity   : 
+07-04 13:43:48.735 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:48.735 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:48.735 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:48.735 16534 16554 I Unity   : 
+07-04 13:43:49.524 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:49.524 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:49.524 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:49.524 16534 16554 I Unity   : 
+07-04 13:43:50.295 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:50.295 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:50.295 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:50.295 16534 16554 I Unity   : 
+07-04 13:43:51.076 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:51.076 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:51.076 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:51.076 16534 16554 I Unity   : 
+07-04 13:43:51.865 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:51.865 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:51.865 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:51.865 16534 16554 I Unity   : 
+07-04 13:43:52.660 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:52.660 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:52.660 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:52.660 16534 16554 I Unity   : 
+07-04 13:43:53.445 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:53.445 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:53.445 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:53.445 16534 16554 I Unity   : 
+07-04 13:43:54.222 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:54.222 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:54.222 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:54.222 16534 16554 I Unity   : 
+07-04 13:43:55.006 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:55.006 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:55.006 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:55.006 16534 16554 I Unity   : 
+07-04 13:43:55.789 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:55.789 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:55.789 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:55.789 16534 16554 I Unity   : 
+07-04 13:43:56.572 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:56.572 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:56.572 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:56.572 16534 16554 I Unity   : 
+07-04 13:43:57.356 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:57.356 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:57.356 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:57.356 16534 16554 I Unity   : 
+07-04 13:43:58.135 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:58.135 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:58.135 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:58.135 16534 16554 I Unity   : 
+07-04 13:43:58.912 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:58.912 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:58.912 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:58.912 16534 16554 I Unity   : 
+07-04 13:43:59.676 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:43:59.676 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:43:59.676 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:43:59.676 16534 16554 I Unity   : 
+07-04 13:44:00.457 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:00.457 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:00.457 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:00.457 16534 16554 I Unity   : 
+07-04 13:44:01.242 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:01.242 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:01.242 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:01.242 16534 16554 I Unity   : 
+07-04 13:44:02.023 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:02.023 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:02.023 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:02.023 16534 16554 I Unity   : 
+07-04 13:44:02.806 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:02.806 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:02.806 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:02.806 16534 16554 I Unity   : 
+07-04 13:44:03.591 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:03.591 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:03.591 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:03.591 16534 16554 I Unity   : 
+07-04 13:44:04.367 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:04.367 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:04.367 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:04.367 16534 16554 I Unity   : 
+07-04 13:44:05.153 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:05.153 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:05.153 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:05.153 16534 16554 I Unity   : 
+07-04 13:44:05.939 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:05.939 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:05.939 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:05.939 16534 16554 I Unity   : 
+07-04 13:44:06.721 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:06.721 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:06.721 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:06.721 16534 16554 I Unity   : 
+07-04 13:44:07.505 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:07.505 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:07.505 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:07.505 16534 16554 I Unity   : 
+07-04 13:44:08.294 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:08.294 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:08.294 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:08.294 16534 16554 I Unity   : 
+07-04 13:44:09.059 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:09.059 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:09.059 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:09.059 16534 16554 I Unity   : 
+07-04 13:44:09.834 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:09.834 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:09.834 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:09.834 16534 16554 I Unity   : 
+07-04 13:44:10.609 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:10.609 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:10.609 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:10.609 16534 16554 I Unity   : 
+07-04 13:44:11.399 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:11.399 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:11.399 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:11.399 16534 16554 I Unity   : 
+07-04 13:44:12.189 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:12.189 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:12.189 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:12.189 16534 16554 I Unity   : 
+07-04 13:44:12.971 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:12.971 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:12.971 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:12.971 16534 16554 I Unity   : 
+07-04 13:44:13.740 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:13.740 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:13.740 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:13.740 16534 16554 I Unity   : 
+07-04 13:44:14.525 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:14.525 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:14.525 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:14.525 16534 16554 I Unity   : 
+07-04 13:44:15.306 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:15.306 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:15.306 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:15.306 16534 16554 I Unity   : 
+07-04 13:44:16.083 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:16.083 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:16.083 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:16.083 16534 16554 I Unity   : 
+07-04 13:44:16.855 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:16.855 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:16.855 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:16.855 16534 16554 I Unity   : 
+07-04 13:44:17.616 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:17.616 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:17.616 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:17.616 16534 16554 I Unity   : 
+07-04 13:44:18.375 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:18.375 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:18.375 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:18.375 16534 16554 I Unity   : 
+07-04 13:44:19.121 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:19.121 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:19.121 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:19.121 16534 16554 I Unity   : 
+07-04 13:44:19.869 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:19.869 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:19.869 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:19.869 16534 16554 I Unity   : 
+07-04 13:44:20.624 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:20.624 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:20.624 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:20.624 16534 16554 I Unity   : 
+07-04 13:44:21.365 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:21.365 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:21.365 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:21.365 16534 16554 I Unity   : 
+07-04 13:44:22.115 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:22.115 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:22.115 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:22.115 16534 16554 I Unity   : 
+07-04 13:44:22.652 16534 16554 I Unity   : Starting CSV upload from: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/Historical.csv
+07-04 13:44:22.652 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:22.652 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:22.652 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:44:22.652 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:44:22.652 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:44:22.652 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:44:22.652 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:44:22.652 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:44:22.652 16534 16554 I Unity   : 
+07-04 13:44:22.653 16534 16554 I Unity   : Searching for file in: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/TrackingData
+07-04 13:44:22.653 16534 16554 I Unity   : CSVUploader:searchForFile(String)
+07-04 13:44:22.653 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:44:22.653 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:44:22.653 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:44:22.653 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:44:22.653 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:44:22.653 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:44:22.653 16534 16554 I Unity   : 
+07-04 13:44:22.654 16534 16554 I Unity   : Found file: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/TrackingData/OculusTracking_20250704_134317.csv
+07-04 13:44:22.654 16534 16554 I Unity   : CSVUploader:searchForFile(String)
+07-04 13:44:22.654 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:44:22.654 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:44:22.654 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:44:22.654 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:44:22.654 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:44:22.654 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:44:22.654 16534 16554 I Unity   : 
+07-04 13:44:22.654 16534 16554 I Unity   : Starting CSV upload from: /storage/emulated/0/Android/data/com.RehabImmersive.HGTrainer/HandBall/1/TrackingData/OculusTracking_20250704_134317.csv
+07-04 13:44:22.654 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:22.654 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:22.654 16534 16554 I Unity   : CSVUploader:OnClick()
+07-04 13:44:22.654 16534 16554 I Unity   : UnityEngine.Events.UnityEvent:Invoke()
+07-04 13:44:22.654 16534 16554 I Unity   : UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+07-04 13:44:22.654 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMousePress(MouseButtonEventData)
+07-04 13:44:22.654 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:ProcessMouseEvent(MouseState)
+07-04 13:44:22.654 16534 16554 I Unity   : UnityEngine.EventSystems.OVRInputModule:Process()
+07-04 13:44:22.654 16534 16554 I Unity   : 
+07-04 13:44:22.881 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:22.881 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:22.881 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:22.881 16534 16554 I Unity   : 
+07-04 13:44:22.935 16534 16554 I Unity   : ⏱️ Tiempo total: 0,282 s
+07-04 13:44:22.935 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:22.935 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:22.935 16534 16554 I Unity   : 
+07-04 13:44:22.936 16534 16554 I Unity   : [EFFICIENCY] File total size (not including overhead): 18656 bytes
+07-04 13:44:22.936 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:22.936 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:22.936 16534 16554 I Unity   : 
+07-04 13:44:22.936 16534 16554 I Unity   : [EFFICIENCY] Payload total size (including overhead): 18740 bytes
+07-04 13:44:22.936 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:22.936 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:22.936 16534 16554 I Unity   : 
+07-04 13:44:22.937 16534 16554 I Unity   : [EFFICIENCY] Overhead size (headers, form boundaries, etc.): 84 bytes
+07-04 13:44:22.937 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:22.937 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:22.937 16534 16554 I Unity   : 
+07-04 13:44:22.937 16534 16554 I Unity   : Overhead Ratio0,00450257289879931
+07-04 13:44:22.937 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:22.937 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:22.937 16534 16554 I Unity   : 
+07-04 13:44:22.938 16534 16554 I Unity   : Efficiency0,995517609391676
+07-04 13:44:22.938 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:22.938 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:22.938 16534 16554 I Unity   : 
+07-04 13:44:22.938 16534 16554 I Unity   : Upload successful: {"message":"File uploaded successfully"}
+07-04 13:44:22.938 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:22.938 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:22.938 16534 16554 I Unity   : 
+07-04 13:44:23.043 16534 16554 I Unity   : ⏱️ Tiempo total: 0,385 s
+07-04 13:44:23.043 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:23.043 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:23.043 16534 16554 I Unity   : 
+07-04 13:44:23.043 16534 16554 I Unity   : [EFFICIENCY] File total size (not including overhead): 342575 bytes
+07-04 13:44:23.043 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:23.043 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:23.043 16534 16554 I Unity   : 
+07-04 13:44:23.044 16534 16554 I Unity   : [EFFICIENCY] Payload total size (including overhead): 342659 bytes
+07-04 13:44:23.044 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:23.044 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:23.044 16534 16554 I Unity   : 
+07-04 13:44:23.045 16534 16554 I Unity   : [EFFICIENCY] Overhead size (headers, form boundaries, etc.): 84 bytes
+07-04 13:44:23.045 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:23.045 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:23.045 16534 16554 I Unity   : 
+07-04 13:44:23.046 16534 16554 I Unity   : Overhead Ratio0,000245201780631978
+07-04 13:44:23.046 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:23.046 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:23.046 16534 16554 I Unity   : 
+07-04 13:44:23.046 16534 16554 I Unity   : Efficiency0,999754858328542
+07-04 13:44:23.046 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:23.046 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:23.046 16534 16554 I Unity   : 
+07-04 13:44:23.047 16534 16554 I Unity   : Upload successful: {"message":"File uploaded successfully"}
+07-04 13:44:23.047 16534 16554 I Unity   : <UploadCSV>d__9:MoveNext()
+07-04 13:44:23.047 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:23.047 16534 16554 I Unity   : 
+07-04 13:44:23.624 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:23.624 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:23.624 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:23.624 16534 16554 I Unity   : 
+07-04 13:44:24.371 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:24.371 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:24.371 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:24.371 16534 16554 I Unity   : 
+07-04 13:44:25.116 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:25.116 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:25.116 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:25.116 16534 16554 I Unity   : 
+07-04 13:44:25.856 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:25.856 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:25.856 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:25.856 16534 16554 I Unity   : 
+07-04 13:44:26.604 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:26.604 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:26.604 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:26.604 16534 16554 I Unity   : 
+07-04 13:44:27.378 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:27.378 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:27.378 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:27.378 16534 16554 I Unity   : 
+07-04 13:44:27.531 16534 16554 I Unity   : Unable to process a controller whose SampleRateHz is 0 now.
+07-04 13:44:27.531 16534 16554 I Unity   : OVRHapticsOutput:Process()
+07-04 13:44:27.531 16534 16554 I Unity   : OVRHaptics:Process()
+07-04 13:44:27.531 16534 16554 I Unity   : OVRManager:LateUpdate()
+07-04 13:44:27.531 16534 16554 I Unity   : 
+07-04 13:44:27.531 16534 16554 I Unity   : Unable to process a controller whose SampleRateHz is 0 now.
+07-04 13:44:27.531 16534 16554 I Unity   : OVRHapticsOutput:Process()
+07-04 13:44:27.531 16534 16554 I Unity   : OVRHaptics:Process()
+07-04 13:44:27.531 16534 16554 I Unity   : OVRManager:LateUpdate()
+07-04 13:44:27.531 16534 16554 I Unity   : 
+07-04 13:44:27.947 16534 16554 I Unity   : [OVRManager] OnApplicationFocus(false)
+07-04 13:44:27.953 16534 16554 I Unity   : [OVRManager] InputFocusLost event
+07-04 13:44:27.953 16534 16554 I Unity   : OVRManager:Update()
+07-04 13:44:27.953 16534 16554 I Unity   : 
+07-04 13:44:28.261 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:28.261 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:28.261 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:28.261 16534 16554 I Unity   : 
+07-04 13:44:29.009 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:29.009 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:29.009 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:29.009 16534 16554 I Unity   : 
+07-04 13:44:29.768 16534 16554 I Unity   : SENDER - Capturing frame
+07-04 13:44:29.768 16534 16554 I Unity   : <CaptureFrames>d__12:MoveNext()
+07-04 13:44:29.768 16534 16554 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+07-04 13:44:29.768 16534 16554 I Unity   : 
+07-04 13:44:30.259 16534 16554 I Unity   : [OVRManager] OnApplicationPause(true)
